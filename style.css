@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.nav-link {
+    font-weight: 600;
+    font-family: 'Arial', sans-serif; 
+    color:#369796; 
+}
+
+.nav-link:hover {
+    color: #301717; 
+}
+
+
+    /* Box shadow above the carousel */
+    .carousel {
+        box-shadow: rgba(50, 93, 75, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        margin-top: 10px;
+        padding:2px 1px;
+    }
+
+
+    /* Styling the carousel captions */
+    .carousel-caption {
+        position: absolute;
+        bottom: 10%;
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        animation: fadeInUp 1s ease-in-out;
+    }
+
+    /* Smooth fade-up animation */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Carousel indicators styling */
+    .carousel-indicators li {
+        background-color: #000;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+    }
+
+    .py-4{
+        margin-top: 30px;
+    }
+     /* Card Section */
+    .mb-4{
+        background: linear-gradient(to bottom, #35fbf2, #0c9790);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+
+    .card-img-top {
+        position: relative;
+        height: 300px;
+        object-fit: cover;
+        transition: transform 2s ease;
+    }
+    
+    .card:hover {
+        overflow: hidden;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+       
+    }
+    .btn-dark{
+        color: #1d1d1d;
+        background-color: #ffff;
+    }
+    
+     .card-img-top:hover{
+        transform: scale(1.02);
+        
+    }  
+    
+    .btn-dark {
+        transition: background-color 1.3s ease;
+    }
+    
+    .btn-dark:hover {
+        border: none;
+        background-color: #33B5A9;
+        
+    }
+
+    /* footer */
+
+    .footer {
+        
+        background: linear-gradient(to bottom, #35fbf2, #0c9790);
+        padding: 40px 0;
+        font-size: 14px;
+        margin-top: 20px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-top: 1px solid #f8f8f8;
+    }
+
+    .footer a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .social-icons a {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .footer .newsletter input {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 100%;
+        max-width: 300px;
+        margin-right: 10px;
+    }
+
+    .footer .newsletter button {
+        padding: 10px 20px;
+        border: 1px solid #1a1818;
+        font-weight: 600;
+        color: #020202;
+        border-radius: 10px;
+        
+    }
